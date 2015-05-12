@@ -25,4 +25,4 @@
 	};
 
 	app.controller('HomeCtrl', ['$scope', '$location', '$anchorScroll', HomeCtrl]);
-});
+})();
