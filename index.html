@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="dolomyte">
+<head>
+	<title>DOLOMYTE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="static/dolomyte.css" />
+</head>
+<body>
+	<script data-require="angular.js@1.4.0-beta.6" data-semver="1.4.0-beta.6" src="https://code.angularjs.org/1.4.0-beta.6/angular.js"></script>
+    <script data-require="angular-route@1.4.0-beta.6" data-semver="1.4.0-beta.6" src="https://code.angularjs.org/1.4.0-beta.6/angular-route.js"></script>
+	<script type="text/javascript" src='static/js/app.js'></script>
+	<script type="text/javascript" src='app/gitpage.js'></script>
+	<div class='wrapper'>
+	<div ng-controller='HomeCtrl'>
+	<header>
+	<!-- DOLOMYTE -->
+			<div id='head' class='links'>
+				<h1>DOLO<br />MYTE</h1>
+				<span id='more' class='more-icon clickable' ng-click="showNav()"></span>
+			</div>
+			
+	</header>
+		<div ng-class="slide" class='side-bar' >
+				<ul>
+				<li><a href="https://github.com/HistoireDeBabar/Dolomyte">Repository</a></li>
+				</ul>
+		</div>
+		<div ng-view class='cont'>
+			<!-- Content is Loaded Here -->
+		</div>
+	</div>
+	<footer>
+		<!-- comment -->
+	</footer>
+	</div>
+</body>
