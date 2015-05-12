@@ -1,7 +1,7 @@
 (function (){
 	var app = angular.module('dolomyte');
 
-	var HomeCtrl = function($scope, $location, $anchorScroll){
+	var HomeCtrl = function($scope, $window){
 		$scope.slide = 'slideOut';
 		
 		$scope.changePage = function(id){
@@ -11,14 +11,12 @@
 		
 
 		$scope.showNav = function(){
-			console.log($scope.slide);
 			if($scope.slide === 'slideOut'){
 				$scope.slide = 'slideIn';
 			}
 			else if($scope.slide === 'slideIn'){
 				$scope.slide = 'slideOut';
 			}
-			console.log($scope.slide);
 		};
 
 		$scope.github = function(){
@@ -31,5 +29,5 @@
 
 	};
 
-	app.controller('HomeCtrl', ['$scope', '$location', '$anchorScroll', HomeCtrl]);
+	app.controller('HomeCtrl', ['$scope', '$window', HomeCtrl]);
 })();
