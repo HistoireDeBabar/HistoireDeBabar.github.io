@@ -24,8 +24,9 @@
 	</header>
 		<div ng-class="slide" class='side-bar' >
 				<ul>
-				<li><a href="https://github.com/HistoireDeBabar">GitHub</a></li>
-				<li><a href="https://twitter.com/Histoiredebabar">Twitter</a></li>
+				<li ng-click="changePage(home)">Home</li>
+				<li ng-click="github()">GitHub</li>
+				<li ng-click="twitter()">Twitter</li>
 				</ul>
 		</div>
 		<div ng-view class='cont'>

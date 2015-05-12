@@ -21,6 +21,13 @@
 			console.log($scope.slide);
 		};
 
+		$scope.github = function(){
+			$window.open('https://github.com/HistoireDeBabar');
+		};
+
+		$scope.twitter = function(){
+			$window.open('https://twitter.com/Histoiredebabar');
+		};
 
 	};
 
