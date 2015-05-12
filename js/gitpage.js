@@ -1,7 +1,7 @@
 (function (){
 	var app = angular.module('dolomyte');
 
-	var HomeCtrl = function($scope, $window){
+	var HomeCtrl = function($scope, $location, $window){
 		$scope.slide = 'slideOut';
 		
 		$scope.changePage = function(id){
@@ -29,5 +29,5 @@
 
 	};
 
-	app.controller('HomeCtrl', ['$scope', '$window', HomeCtrl]);
+	app.controller('HomeCtrl', ['$scope', '$location','$window', HomeCtrl]);
 })();
