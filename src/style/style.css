@@ -6,10 +6,14 @@
 h1, h3, p {
 	font-family: san-fran;
 	color: black;
+	-webkit-transition: all 1s ease; 
+	transition: all 1s ease;
 }
 
 h3 {
 	font-size: 500%;
+	-webkit-transition: all 1s ease; 
+	transition: all 1s ease;
 }
 
 
@@ -88,6 +92,12 @@ p {
 	background-image: url(ico/github.png);
 }
 
+.tweet {
+	background-image: url(ico/twitter.png);
+	background-size: 120px 120px;
+	border-radius: 100px;
+}
+
 .animate {
 	max-width: 90% !important;
 	min-width: 90% !important;
@@ -97,6 +107,15 @@ p {
 	padding-right: 0% !important;
 	margin-left: 4% !important;
 	padding-left: 2% !important;
-	-webkit-transition: all 3s ease; 
-	transition: all 3s ease;
-};
+	-webkit-transition: all 1s ease; 
+	transition: all 1s ease;
+}
+
+footer {
+	padding-top: 2%;
+	margin-bottom: 5%;
+	max-height: 15% !important;
+	min-height: 15% !important;
+	min-width: 100%;
+	text-align: center;
+}
