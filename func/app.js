@@ -64,7 +64,6 @@ var sections_view = {
 			var atr = document.createElement("span");
 			var name = document.createElement("span");
 			name.innerHTML = sectionData[i].name;
-			name.classList.add("visuallyHiden");
 			name.classList.add("hide");
 			atr.innerHTML  = sectionData[i].abr;
 			atr.classList.add("shown");
