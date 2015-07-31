@@ -6,16 +6,23 @@
 h1, h3, p {
 	font-family: san-fran;
 	color: black;
-	-webkit-transition: all 1s ease; 
+	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 }
 
 h3 {
 	font-size: 500%;
-	-webkit-transition: all 1s ease; 
+	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
 
 body {
 	padding: 0px;
@@ -26,17 +33,18 @@ body {
 	margin: auto;
 	text-align: center;
 	padding-bottom: 3%;
-	padding-top: 7%; 
+	padding-top: 7%;
 
 }
 
 .section {
 	clear: both;
 	margin: auto;
-	
+
 }
 
 .section h3 {
+  overflow: auto;
 	max-width: 140px;
 	min-width: 140px;
 	max-height: 140px;
@@ -46,13 +54,16 @@ body {
 	padding-right: 12%;
 	margin-left: 20%;
 	padding-left: 3%;
-	-webkit-transition: all 2s ease; 
+	-webkit-transition: all 2s ease;
 	transition: all 2s ease;
 }
 
 p {
 	color: white;
 	font-size: 40%;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-right: 2%;
 }
 
 .odd {
@@ -107,7 +118,7 @@ p {
 	padding-right: 0% !important;
 	margin-left: 4% !important;
 	padding-left: 2% !important;
-	-webkit-transition: all 1s ease; 
+	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 }
 
