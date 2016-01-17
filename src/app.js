@@ -129,8 +129,12 @@ var journey_view = {
     this.start.classList.add('start');
     this.timeline = document.createElement('ul');
     this.timeline.classList.add('timeline');
+    this.end = document.createElement('h2');
+    this.end.innerHTML = 'To be continued...';
+    this.end.classList.add('start');
     this.timelineSection.appendChild(this.start);
     this.timelineSection.appendChild(this.timeline);
+    this.timelineSection.appendChild(this.end);
     document.body.appendChild(this.timelineSection);
     this.render();
   },

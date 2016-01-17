@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, li{
 }
 
 h1 {
-	color: #FFFFFF;	
+	color: #FFFFFF;
 	font-size: 500%;
 	font-family: 'Manifesto', cursive;
 }
@@ -70,11 +70,11 @@ header {
 	padding-bottom: 2%;
 }
 
-.banner h2{	
+.banner h2{
 	margin-left: auto;
 	margin-right: auto;
-	margin-top:10%;	
-	font-size: 300%;	
+	margin-top:10%;
+	font-size: 300%;
 }
 
 .banner h2 .tech{
@@ -149,7 +149,7 @@ header {
 .blog-content{
 	text-align: justify;
 	margin-right: auto;
-	margin-left:auto; 
+	margin-left:auto;
 }
 
 .med-content.grey.tweets ul li{
@@ -192,7 +192,7 @@ a:hover{
 	cursor: pointer;
 }
 
-.blog-post:hover { 
+.blog-post:hover {
     cursor: pointer;
 }
 
@@ -239,7 +239,7 @@ a:hover{
 }
 
 
-.rect div{	
+.rect div{
 	width:70%;
 	margin-left: auto !important;
 	margin-right: auto !important;
@@ -356,7 +356,7 @@ a:hover{
 }
 .slideOut{
 	top:-101%;
-	-webkit-transition: top 1s ease; 
+	-webkit-transition: top 1s ease;
 	transition: top 1s ease;
 }
 
@@ -366,7 +366,7 @@ a:hover{
 
 .slideIn{
 	top:0%;
-	-webkit-transition: top 1s ease; 
+	-webkit-transition: top 1s ease;
 	transition: top 1s ease;
 }
 .side-bar ul li{
@@ -376,12 +376,12 @@ a:hover{
 	padding-top:5%;
 	border-bottom:1px solid #FFFFFF;
 	padding-bottom:5%;
-	
+
 }
 
 .side-bar ul li:hover {
 	background-color:rgb(249,230,149);
-	-webkit-transition: background-color 1s ease; 
+	-webkit-transition: background-color 1s ease;
 	transition: background-color 1s ease;
 }
 

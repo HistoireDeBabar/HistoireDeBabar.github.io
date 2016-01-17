@@ -1,12 +1,21 @@
 var gulp = require('gulp');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
+var minify = require('gulp-minify');
+var uglify = require('gulp-uglify');
 
 gulp.task('serve', function() {
   browserSync.init({
     server: "./"
   });
 
+});
+
+gulp.task('compress', function() {
+  return gulp.src('./src/app.js')
+  .pipe(minify())
+  .pipe(uglify())
+  .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('css-watch', function() {
