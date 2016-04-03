@@ -33,9 +33,14 @@ var model = {
     },
     {
       place: 'Place A Vote',
-      position: 'Frontend Engineer',
+      position: 'Frontend Developer',
       description: 'Place A Vote are trying to change democarcy.  Voters can decide how they congressmen and woman vote on every bill that enters congress.  I work on the Frontend applications for web using Angular and Node JS.  As well as developing the iOS and Android versions of the application.',
-    }
+    },
+    {
+      place: 'Associate Level',
+      position: 'AWS Developer Certification',
+      description: 'The AWS Certified Developer – Associate exam validates technical expertise in developing and maintaining applications on the AWS platform. Exam concepts you should understand for this exam include: Picking the right AWS services for the application, Leveraging AWS SDKs to interact with AWS services from your application, Writing code that optimizes performance of AWS services used by your application, Code-level application security (IAM roles, credentials, encryption, etc.)',
+    },
   ],
 };
 
