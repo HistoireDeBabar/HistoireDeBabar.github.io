@@ -278,6 +278,7 @@ p {
   font-size: 0.77777em;
   line-height: 1.5em;
   font-family: san-fran;
+  text-align: justify;
 }
 
 .direction-r .desc {
