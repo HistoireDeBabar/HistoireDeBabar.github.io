@@ -38,7 +38,7 @@ var model = {
     },
     {
       place: 'Associate Level',
-      position: 'AWS Developer Certification',
+      position: 'AWS Developer Cert.',
       description: 'The AWS Certified Developer – Associate exam validates technical expertise in developing and maintaining applications on the AWS platform. Exam concepts you should understand for this exam include: Picking the right AWS services for the application, Leveraging AWS SDKs to interact with AWS services from your application, Writing code that optimizes performance of AWS services used by your application, Code-level application security (IAM roles, credentials, encryption, etc.)',
     },
   ],
